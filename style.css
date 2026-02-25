@@ -244,10 +244,11 @@ body.modal-open {
     z-index: 2;
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1250px;
     width: 100%;
     padding: 0 20px;
-    margin-right: 140px;
+    margin-right: 120px;
+    gap: 30px;
 }
 
 .hero-content {
@@ -273,7 +274,31 @@ body.modal-open {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 135px;
+    margin-top: 105px;
+}
+
+.hero-lottie {
+    position: absolute;
+    left: 400px;
+    bottom: -20px;
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+    opacity: 0.4;
+    animation:  0.8s ease-out 0.2s backwards;
+    will-change: transform, opacity;
+}
+
+.hero-lottie2 {
+    position: absolute;
+    right: 50px;
+    top: -40px;
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    opacity: 0.4;
+    animation:  0.8s ease-out 0.2s backwards;
+    will-change: transform, opacity;
 }
 
 .hero-img {
@@ -283,6 +308,8 @@ body.modal-open {
     animation: imageFadeIn 0.8s ease-out 0.4s backwards;
     will-change: transform, opacity;
     transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 @keyframes imageFadeIn {
@@ -293,11 +320,11 @@ body.modal-open {
 .kit-title {
     color: orange;
     font-size: clamp(2.2rem, 5vw, 3.8rem);
-    line-height: 1.1;
+    line-height: 1.4;
     margin-bottom: 1.5rem;
     font-family: 'Fredoka', 'Poppins', sans-serif;
     font-weight: 700;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.8px;
     text-shadow: 0 4px 22px rgba(0, 0, 0, 0.6);
 }
 
@@ -1117,6 +1144,19 @@ body.modal-open {
         min-height: 80vh;
     }
 
+    .hero-image {
+        margin-top: 40px;
+        margin-bottom: -75px;
+    }
+
+    .hero-lottie {
+        display: none;
+    }
+    .hero-lottie2 {
+        display: none;
+    }
+
+
     .hero-bg {
         opacity: 0.7;
     }
@@ -1125,6 +1165,7 @@ body.modal-open {
         flex-direction: column;
         padding: 20px 10px;
         margin-right: 10px;
+        gap: 5px;
     }
 
     .modal-content { padding: 20px; }
