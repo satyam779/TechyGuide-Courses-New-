@@ -48,12 +48,12 @@
             projects: ['Personal Portfolio Website', 'E-commerce Platform', 'Blog Management System', 'Real-time Chat Application'],
             skills: ['Frontend Development', 'Backend Programming', 'Database Design', 'Full Stack Architecture']
         },
-        Games: {
-            curriculum: ['Game Design Fundamentals', 'Unity Engine Mastery', 'C# Programming for Games', '2D & 3D Graphics Programming', 'Physics & Animation Systems', 'Game Publishing & Marketing'],
-            description: 'Design and develop engaging 2D and 3D games using Unity engine. Learn game mechanics, physics, animation, and monetization strategies.',
-            duration: '12 weeks creative program',
-            projects: ['2D Platformer Adventure', '3D Racing Simulator', 'Mobile Puzzle Game', 'Multiplayer Battle Arena'],
-            skills: ['Unity Development', 'C# Programming', 'Game Physics', '3D Modeling']
+        IoT: {
+        curriculum: ['Introduction to IoT & Embedded Systems', 'Microcontrollers & Sensors', 'Arduino & Raspberry Pi Programming', 'Wireless Communication Protocols', 'Cloud Integration & Data Analytics', 'IoT Security & Deployment'],
+        description: 'Design and build smart connected systems using sensors, microcontrollers, and cloud platforms. Learn automation, real-time monitoring, and secure IoT deployment strategies.',
+        duration: '12 weeks hands-on program',
+        projects: ['Smart Home Automation System', 'Weather Monitoring Station', 'IoT-Based Health Tracker', 'Smart Agriculture System'],
+        skills: ['Embedded Systems', 'Sensor Integration', 'Wireless Communication', 'Cloud Connectivity']
         }
     };
 

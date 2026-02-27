@@ -259,7 +259,7 @@ body.modal-open {
     animation: contentFadeIn 0.8s ease-out 0.2s backwards;
     will-change: transform, opacity;
     text-align: left;
-    max-width: 600px;
+    max-width: 700px;
     padding: 0 1rem;
     text-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
 }
@@ -279,37 +279,38 @@ body.modal-open {
 
 .hero-lottie {
     position: absolute;
-    left: 400px;
+    left: 0;
     bottom: -20px;
-    width: 400px;
+    width: 300px;
     height: 350px;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.2;
     animation:  0.8s ease-out 0.2s backwards;
     will-change: transform, opacity;
 }
 
 .hero-lottie2 {
     position: absolute;
-    right: 50px;
+    right: 600px;
     top: -40px;
     width: 350px;
     height: 350px;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.2;
     animation:  0.8s ease-out 0.2s backwards;
     will-change: transform, opacity;
 }
 
 .hero-img {
-    max-width: 150%;
+    max-width: 140%;
     height: auto;
     border-radius: 20px;
     animation: imageFadeIn 0.8s ease-out 0.4s backwards;
     will-change: transform, opacity;
     transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    user-select: none;
     -webkit-user-drag: none;
+    border-bottom-left-radius: 150px;
+    margin-left: 50px;
 }
 
 @keyframes imageFadeIn {
@@ -1067,8 +1068,6 @@ body.modal-open {
         flex-direction: column;
         text-align: center;
         padding: 40px 20px;
-        margin-right: 10px;
-        gap: -20px;
     }
 
     .grid-wrapper {
@@ -1087,7 +1086,6 @@ body.modal-open {
 
     .hero-container {
         padding: 30px 15px;
-        margin-right: 10px;
     }
 
     .btn {
@@ -1146,7 +1144,12 @@ body.modal-open {
 
     .hero-image {
         margin-top: 40px;
-        margin-bottom: -60px;
+        margin-bottom: -90px;
+    }
+
+    .hero-img {
+        border-radius: 0 !important;
+        margin-left: 0;
     }
 
     .hero-lottie {
